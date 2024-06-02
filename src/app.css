@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Caslon Display', sans-serif;
+}
+
+/* Navbar */
+header{
+    background: url(header-background.png) no-repeat center center/cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo{
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.navbar nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .getting-started{
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero section */
+
+.hero{
+    margin-top: 50px;
+}
+
+.hero h1{
+    font-size: 36px;
+}
+
+.hero p{
+    margin: 20px 0;
+}
+
+.learn-more{
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* cards section */
+.newest-reads{
+    padding: 10px;
+}
+
+.newest-reads h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 30%;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-content p{
+    font-size: 14px;
+    color: gray;
+}
+
+.card-content h3{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card-content a{
+    text-decoration: none;
+    color: orange;
+}
+
+@media (max-width: 768px){
+    .navbar nav ul{
+        display: none;
+    }
+}
