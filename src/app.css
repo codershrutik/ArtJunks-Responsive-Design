@@ -115,4 +115,28 @@ header{
     .navbar nav ul{
         display: none;
     }
+
+    .menu-toggle{
+        display: block;
+    }
+
+    .cards{
+        flex-direction: column;
+        gap: 10px
+    }
+
+    .card{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .cards{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card{
+        width: 100%;
+    }
 }
